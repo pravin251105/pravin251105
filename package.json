@@ -1,0 +1,14 @@
+{
+  "name": "pravin251105-profile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Terminal-themed animated GitHub profile README for Pravin V (generated SVGs, zero dependencies).",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "stats": "node scripts/stats.mjs",
+    "all": "node scripts/build.mjs && node scripts/stats.mjs",
+    "preview": "node scripts/preview.mjs"
+  }
+}

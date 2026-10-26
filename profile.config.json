@@ -1,0 +1,185 @@
+{
+  "_readme": "Edit this file, run `npm run build`, commit. Everything on your profile is generated from here. Empty strings are skipped.",
+  "theme": "qa",
+  "name": "Pravin V",
+  "handle": "pravin",
+  "github": "Pravin251105",
+  "title": "QA Automation Engineer",
+  "roles": [
+    "automating the boring, catching the bugs",
+    "Playwright · Python · CI/CD",
+    "shipping quality, not just features",
+    "zero flaky tests, zero excuses"
+  ],
+  "about": [
+    "I test software the way users break it: automating end-to-end flows with Playwright and Python.",
+    "I live in Jira, CI/CD pipelines and n8n workflows, turning bugs into regression tests."
+  ],
+  "skills": [
+    {
+      "label": "Playwright",
+      "level": 90,
+      "test": "cross-browser UI + API automation"
+    },
+    {
+      "label": "Python",
+      "level": 85,
+      "test": "pytest utilities and test data"
+    },
+    {
+      "label": "Jira",
+      "level": 85,
+      "test": "bug triage, tracking and reporting"
+    },
+    {
+      "label": "CI/CD Pipeline",
+      "level": 80,
+      "test": "quality gates on every push"
+    },
+    {
+      "label": "SQL",
+      "level": 75,
+      "test": "data validation queries"
+    },
+    {
+      "label": "n8n Workflow",
+      "level": 75,
+      "test": "alerts and report automation"
+    },
+    {
+      "label": "HTML & CSS",
+      "level": 70,
+      "test": "locators and responsive checks"
+    }
+  ],
+  "projects": [
+    {
+      "name": "portfolio-site",
+      "desc": "Personal site with a terminal-style UI",
+      "stack": "HTML, CSS, JS",
+      "url": "https://github.com/Pravin251105"
+    },
+    {
+      "name": "task-tracker",
+      "desc": "Minimal task manager with local persistence",
+      "stack": "JS",
+      "url": "https://github.com/Pravin251105"
+    },
+    {
+      "name": "api-starter",
+      "desc": "Small REST API boilerplate with tests",
+      "stack": "Python",
+      "url": "https://github.com/Pravin251105"
+    }
+  ],
+  "now": {
+    "learning": "system design and TypeScript",
+    "building": "a developer tools side project",
+    "open_to": "internships, collabs and open source"
+  },
+  "contact": {
+    "email": "",
+    "linkedin": "",
+    "portfolio": "",
+    "twitter": ""
+  },
+  "badges": [
+    {
+      "label": "Playwright",
+      "logo": "playwright",
+      "color": "2EAD33",
+      "logoColor": "ffffff"
+    },
+    {
+      "label": "Python",
+      "logo": "python",
+      "color": "3776AB",
+      "logoColor": "ffffff"
+    },
+    {
+      "label": "Jira",
+      "logo": "jira",
+      "color": "0052CC",
+      "logoColor": "ffffff"
+    },
+    {
+      "label": "CI/CD",
+      "logo": "githubactions",
+      "color": "2088FF",
+      "logoColor": "ffffff"
+    },
+    {
+      "label": "SQL",
+      "logo": "postgresql",
+      "color": "4169E1",
+      "logoColor": "ffffff"
+    },
+    {
+      "label": "n8n",
+      "logo": "n8n",
+      "color": "EA4B71",
+      "logoColor": "ffffff"
+    },
+    {
+      "label": "HTML5",
+      "logo": "html5",
+      "color": "E34F26",
+      "logoColor": "ffffff"
+    },
+    {
+      "label": "CSS3",
+      "logo": "css3",
+      "color": "1572B6",
+      "logoColor": "ffffff"
+    }
+  ],
+  "host": "qa-lab",
+  "board": [
+    {
+      "id": "QA-101",
+      "title": "Fix flaky login test",
+      "tag": "e2e",
+      "to": 3
+    },
+    {
+      "id": "QA-102",
+      "title": "Parallelise e2e suite",
+      "tag": "ci/cd",
+      "to": 3
+    },
+    {
+      "id": "QA-103",
+      "title": "API contract checks",
+      "tag": "api",
+      "to": 2
+    },
+    {
+      "id": "QA-104",
+      "title": "n8n failure alerts",
+      "tag": "n8n",
+      "to": 1
+    }
+  ],
+  "pipeline": [
+    [
+      "Commit",
+      "git push"
+    ],
+    [
+      "Build",
+      "build + lint"
+    ],
+    [
+      "Unit",
+      "unit tests"
+    ],
+    [
+      "E2E",
+      "playwright"
+    ],
+    [
+      "Deploy",
+      "release"
+    ]
+  ]
+}
